@@ -1,0 +1,7 @@
+node_modules
+client/node_modules
+.env
+*.db
+meetingpilot.db
+server/meetingpilot.db
+.vercel

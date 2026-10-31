@@ -1,0 +1,10 @@
+{
+  "name": "meetingpilot",
+  "private": true,
+  "scripts": {
+    "dev:server": "node --experimental-sqlite server/index.js",
+    "dev:client": "node ./client/node_modules/vite/bin/vite.js --config client/vite.config.js",
+    "dev": "node server/dev-runner.js",
+    "start": "node --experimental-sqlite server/index.js"
+  }
+}
